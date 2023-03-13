@@ -3,8 +3,6 @@
   //
   // Developer: Rhoda Chalmers
   //
-  // Program Number: Program 3
-  // 
   // File Name: Client4Echo.java
   //
   // Java Version: JavaSE-17
@@ -29,7 +27,7 @@ import java.util.Scanner;
 import java.lang.Exception;
 
 public class Client4Echo {
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       main
     // 
@@ -42,7 +40,7 @@ public class Client4Echo {
     //**************************************************************
 	public static void main(String[] args) {
 		// Create an object of the main class and use it to call
-    // the non-static developerInfo method as well as
+                // the non-static developerInfo method as well as
 		// the non-static createClient method
 		Client4Echo obj = new Client4Echo();
 		obj.developerInfo();
@@ -57,16 +55,16 @@ public class Client4Echo {
 		}				
 	}// end of main method
 	
-	//***************************************************************
+  //***************************************************************
   //
   //  Method:       createClient (Non Static)
   // 
   //  Description:  Creates a client that reads user input
-	//                from the keyboard and then
-	//                prints the echoed message from the server
-	//
+  //                from the keyboard and then
+  //                prints the echoed message from the server
+  //
   //  Parameters:   String address (IP address)
-	//                Integer port (listening port)
+  //                Integer port (listening port)
   //
   //  Returns:      N/A 
   //
