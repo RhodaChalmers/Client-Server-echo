@@ -10,3 +10,5 @@ Associated Class: Program3Server
 Decription: Demonstrates a simple TCP/IP socket client that reads input from the user (keyboard) and prints an echoed message from the server. Client is single threaded.
 
 This set of programs were created for COSC-4302 Operating Systems
+
+NOTE:  I am new to error handling and appreciate any feedback on my work.
