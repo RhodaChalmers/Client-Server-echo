@@ -1,22 +1,22 @@
-    //*************************************************************	
-    //***************************************************************
-	  //
-	  // Developer: Rhoda Chalmers
-    //
-    // Java Version: JavaSE-17
-    //
-    // Name: Server4Echo.java
-    //
-  	// Decription: Demonstrates simple TCP/IP socket server
-    // that echoes every message from the client.
-    // Server remains open and listening for 3 seconds
-    // and then closes with a message.
-    // Server is single threaded.	
-  	//
-    //  Associated Class: Client4Echo
-    //
-    //*************************************************************
-    //*************************************************************
+//*************************************************************	
+//***************************************************************
+//
+// Developer: Rhoda Chalmers
+//
+// Java Version: JavaSE-17
+//
+// Name: Server4Echo.java
+//
+// Decription: Demonstrates simple TCP/IP socket server
+// that echoes every message from the client.
+// Server remains open and listening for 3 seconds
+// and then closes with a message.
+// Server is single threaded.	
+//
+//  Associated Class: Client4Echo
+//
+//*************************************************************
+//*************************************************************
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,7 +27,7 @@ import java.net.Socket;
 import java.lang.Exception;
 
 public class Server4Echo {
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       main
     // 
@@ -40,7 +40,7 @@ public class Server4Echo {
     //**************************************************************
 	public static void main(String[] args) {
 		// Create an object of the main class and use it to call
-    // the non-static developerInfo method as well as
+                // the non-static developerInfo method as well as
 		// the non-static createServer method
 		Server4Echo obj = new Server4Echo();
 		obj.developerInfo();
@@ -49,19 +49,19 @@ public class Server4Echo {
 	}// end of main method
 	
 	//***************************************************************
-    //
-    //  Method:       createServer (Non Static)
-    // 
-    //  Description:  Creates an echo server that listens for
-	  //                client connection and echoes client input
-	  //                until command to end connection from client
-    //
-    //  Parameters:   Integer port (listening port)
-	  //                
-    //
-    //  Returns:      N/A 
-    //
-    //**************************************************************
+	//
+	//  Method:       createServer (Non Static)
+	// 
+	//  Description:  Creates an echo server that listens for
+        //                client connection and echoes client input
+        //                until command to end connection from client
+        //
+        //  Parameters:   Integer port (listening port)
+	//                
+        //
+        //  Returns:      N/A 
+        //
+        //**************************************************************
 	public void createServer(Integer port) {
 		// open a server socket and listen for incoming connections
 		// print helpful messages to the screen
@@ -112,7 +112,7 @@ public class Server4Echo {
 		
 	}// end of createServer method
 	
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       developerInfo (Non Static)
     // 
